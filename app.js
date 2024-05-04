@@ -175,7 +175,7 @@ searchSubmitButton.addEventListener('click', (e)=>{
     }else{ for (let j=0 ; j < employeesAll.length ; j++){
         employeesDOM[j].style.display = "flex";
     }}
-    e.preventDefault  //needs to be at the end of this function to stop page reload. This comment is mostly for me.
+    e.preventDefault()  //needs to be at the end of this function to stop page reload. This comment is mostly for me.
 })
 
 // Although I made it so you can empty the search input to bring everyone back, I didn't find that to be intuitive enough,
